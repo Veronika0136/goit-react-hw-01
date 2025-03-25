@@ -4,6 +4,8 @@ import userData from '../assets/userData.json';
 import FriendList from '../components/FriendList/FriendList';
 import friends from '../assets/friends.json';
 import s from '../components/App.module.css';
+// import TransactionHistory from './FriendList/FriendList';
+// import transactions from '../assets/transactions.json';
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           ))}
         </li>
       </ul>
+
     </>
   );
 };
