@@ -1,0 +1,57 @@
+.box {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+.user {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.user_img{
+    border-radius: 110px;
+    background-color: #242527;
+    margin-bottom: 20px;
+}
+
+.user_title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.user_subtitle{
+    font-size: 24px;
+    color: gray;
+}
+
+.user_data {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(196, 193, 193);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.user_data_item {
+  display: grid;
+  justify-items: center;
+  height: 120px;
+  width: 165px;
+  border: 1px solid grey;
+  border-bottom: none;
+  padding: 20px;
+}
+
+.user_data_txt{
+font-size: 24px;
+}
+
+
