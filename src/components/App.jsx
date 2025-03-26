@@ -3,26 +3,21 @@ import Profile from '../components/Profile/Profile';
 import userData from '../assets/userData.json';
 import FriendList from '../components/FriendList/FriendList';
 import friends from '../assets/friends.json';
-import s from '../components/App.module.css';
-// import TransactionHistory from './FriendList/FriendList';
-// import transactions from '../assets/transactions.json';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import transactions from '../assets/transactions.json';
 
 const App = () => {
   return (
     <>
-      <ul>
-        {userData.map((item, idx) => (
-          <Profile key={idx} item={item} />
-        ))}
-      </ul>
-      <ul>
-        <li className={s.flex}>
-          {friends.map(friend => (
-            <FriendList key={friend.id} friend={friend} />
-          ))}
-        </li>
-      </ul>
-
+       <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
