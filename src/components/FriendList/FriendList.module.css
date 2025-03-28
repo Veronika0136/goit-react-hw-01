@@ -4,30 +4,3 @@
   gap: 15px;
   margin-bottom: 50px;
 }
-
-.card {
-  border: 2px solid black;
-  border-radius: 8px;
-  width: 125px;
-  padding: 15px;
-}
-
-.card_img {
-  margin-bottom: 10px;
-}
-
-.card_title {
-  font-size: 24px;
-  text-align: center;
-}
-
-.card_status {
-  text-align: center;
-}
-
-.red {
-  color: red;
-}
-.green {
-  color: green;
-}
